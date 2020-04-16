@@ -1,0 +1,55 @@
+.bookmark {
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 8vh 5vw;
+    position: relative;
+    z-index: 0;
+}
+.bookmark--menu {
+    background-image: url("../images/bookmarks/menu.jpg");
+}
+.bookmark--gallery {
+    background-image: url("../images/bookmarks/gallery.jpg");
+}
+.bookmark--contact {
+    background-image: url("../images/bookmarks/contact.jpg");
+}
+.bookmark--route {
+    background-image: url("../images/bookmarks/route.jpg");
+}
+.bookmark::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.bookmark__header {
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 0;
+}
+@media (max-width: 1199px) {
+    .bookmark__header {
+        font-size: 10vw;
+    }
+}
+.bookmark__header::after,
+.bookmark__header::before {
+    content: " - ";
+    font-weight: normal;
+}
+.bookmark__description {
+    font-size: 24px;
+    margin: 0;
+}
+@media (max-width: 767px) {
+    .bookmark__description {
+        font-size: 16px;
+    }
+}
