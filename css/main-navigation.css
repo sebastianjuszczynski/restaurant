@@ -86,7 +86,7 @@
     }
 }
 .main-navigation__menu-item:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 @media (max-width: 991px) {
     .main-navigation__menu-item:hover {
