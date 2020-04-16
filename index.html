@@ -16,17 +16,78 @@
     <link rel="stylesheet" href="./css/main-banner.css">
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/about-us.css">
+    <link rel="stylesheet" href="css/main-navigation.css">
 </head>
 
 <body>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <div class="main-navigation__logo">
+                <a href="#" class="main-navigation__logo-link">
+                    <img src="images/logo.svg" alt="Logo" class="main-navigation__logo-image">
+                    Polskie Smaki
+                </a>
+            </div>
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="#" class="main-navigation__link">
+                        Home
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#about-us" class="main-navigation__link">
+                        O nas
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#menu" class="main-navigation__link">
+                        Menu
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#gallery" class="main-navigation__link">
+                        Galeria
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#contact" class="main-navigation__link">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#map" class="main-navigation__link">
+                        Jak dojechać
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://instagram.com" target="_blank" class="main-navigation__link">
+                        <img src="images/icons/social/instagram.svg" alt="Instagram"
+                            class="main-navigation__social-icon">
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://facebook.com" target="_blank" class="main-navigation__link">
+                        <img src="images/icons/social/facebook.svg" alt="Facebook" class="main-navigation__social-icon">
+                    </a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="images/icons/navigation.svg" alt="Otwórz / zamknij nawigację"
+                    class="main-navigation__mobile-button-image">
+            </button>
+        </div>
+    </nav>
+
+    <script src="js/main-navigation.js"></script>
+
     <section class="main-banner">
         <a href="#about-us" class="main-banner__button">
             Poznaj nas lepiej
         </a>
     </section>
 
-    <div class="container">
-        <section class="about-us" id="about-us">
+    <div class="container" id="about-us">
+        <section class="about-us">
             <div class="about-us__text">
                 <h3 class="about-us__header">Nie jesteśmy tylko restauracją</h3>
                 <p class="about-us__paragraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detal, który
