@@ -1,0 +1,25 @@
+.gallery {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+}
+@media (max-width: 767px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.gallery__aspect-ratio {
+    padding-top: calc(100% * 9 / 16);
+    position: relative;
+}
+.gallery__image {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+}
