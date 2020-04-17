@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/bookmark.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/contact-form.css">
 </head>
 
 <body>
@@ -415,6 +416,35 @@
         <h2 class="bookmark__header">Kontakt</h2>
         <p class="bookmark__description">Porozmawiaj z nami lub zarezerwuj stolik</p>
     </section>
+    <form class="contact-form">
+        <div class="container container--smaller">
+
+            <div class="contact-form__info">
+                <div class="contact-form__info-item">
+                    <img src="images/icons/envelope.svg" alt="E-mail" class="contact-form__info-icon">
+                    <a href="mailto:kontakt@restauracja.pl" class="contact-form__info-link">kontakt@restauracja.pl</a>
+                </div>
+                <div class="contact-form__info-item">
+                    <img src="images/icons/phone.svg" alt="Telefon" class="contact-form__info-icon">
+                    <a href="tel:078781425" class="contact-form__info-link">078 781 425</a>
+                </div>
+            </div>
+            <p class="contact-form__header">
+                Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz,<br>
+                wyślij formularz kontaktowy lub zadzwoń.<br>
+                Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania.
+            </p>
+
+            <div class="contact-form__fields">
+                <input name="name" class="contact-form__field" required placeholder="Imię i nazwisko">
+                <input name="email" type="email" class="contact-form__field" required placeholder="Adres e-mail">
+                <textarea placeholder="Treść wiadomości" class="contact-form__field contact-form__field--full-row" name="content" required
+                    rows="10"></textarea>
+            </div>
+            <button class="contact-form__submit-button">Wyślij</button>
+
+        </div>
+    </form>
     <section class="bookmark bookmark--route" id="route">
         <h2 class="bookmark__header">Jak dojechać</h2>
         <p class="bookmark__description">Łatwo nas znajdziesz</p>
