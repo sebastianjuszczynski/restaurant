@@ -1,0 +1,14 @@
+.footer {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.footer__link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
