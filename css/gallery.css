@@ -12,6 +12,7 @@
     }
 }
 .gallery__aspect-ratio {
+    display: block;
     padding-top: calc(100% * 9 / 16);
     position: relative;
 }
