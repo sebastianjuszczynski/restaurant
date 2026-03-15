@@ -1,0 +1,21 @@
+.footer {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.footer__link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.footer__paragraph {
+    color: white;
+    background: black;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+}
