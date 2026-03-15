@@ -1,5 +1,7 @@
 # Restaurant Website 🍽️
 
+![Restaurant Website Screenshot](./1.png)
+![Restaurant Website Screenshot](./2.png)
 A responsive restaurant website built with **HTML, CSS and Vanilla JavaScript**.
 
 This project was created to practice building a modern responsive landing page using fundamental frontend technologies.
